@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background: rgb(167, 152, 244);
+}
+.wrapper {
+  width: 80%;
+  border-radius: 40px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  padding: 50px 40px;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px -4px 5px black;
+}
+span {
+  text-align: center;
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 16px;
+  color: #141414;
+  line-height: 15px;
+  word-wrap: normal;
+  font-weight: 400;
+  opacity: 0;
+  margin: 30px 0;
+}
+.fade {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+button {
+  background: rgba(242, 208, 15, 0.866);
+  padding: 12px 25px;
+  border-radius: 40px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  margin: auto;
+  border: none;
+  font-style: bold;
+  outline: none;
+}
